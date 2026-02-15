@@ -36,5 +36,3 @@ MCP server that takes a product requirements doc and decomposes it into Jira-rea
 ## What I'm Thinking About Lately
 
 How to make agent evaluation rigorous when outputs are non-deterministic. The organizational design problem of platformizing AI capabilities (who owns what, where are the boundaries). The bottleneck shift nobody's talking about: AI tooling made our engineers 3-5x faster, but the product/design process couldn't feed them fast enough — so we had to rethink the entire development workflow, not just the engineering part. Whether the current multi-agent pattern is actually the right long-term abstraction or just the best one we have right now.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samkujovich/)
