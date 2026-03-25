@@ -1,16 +1,14 @@
 # Sam Kujovich
 
-Engineering leader focused on AI products, platform infrastructure, and scaling teams that ship.
+Engineering leader focused on AI tooling, platform infrastructure, and scaling teams that ship.
 
-Director of Software Engineering at [A Place for Mom](https://www.aplaceformom.com), leading 12 engineers across AI Product and B2B Platform.
+Engineering Manager at [Arcade.dev](https://arcade.dev), leading the Tools and Growth teams. Arcade is building the platform that lets AI agents actually do things — tackling auth, permissions, security, and connecting to the systems we've spent decades building. I lead the teams responsible for what those tools are, and how developers discover and use them.
 
 ## What I'm Building
 
-I lead the team behind **Grace** — a production multi-agent system powering an AI-native senior care marketplace. We shipped a B2C marketplace and an agency-facing B2B portal in back-to-back 8-week sprints.
+At Arcade, I'm focused on the infrastructure that makes AI agents useful in the real world. Not just chat — actual tool use with real auth, real permissions, and real security. The Tools team builds what agents can do; the Growth team makes sure developers can find and use it.
 
-A few of the architectural decisions I'm most interested in: hexagonal (ports & adapters) so we can swap LLM providers without touching business logic, composable prompt packs with filesystem fallback for resilience, and a two-layer guardrail system — fast pattern matching for known risks, then LLM evaluation with fallback models running synchronously on every turn. Agency matching uses a contextual bandit that learns from real user outcomes rather than static rules.
-
-The bigger strategic problem I'm working on now: moving from "AI team builds all agents" to building an internal platform/SDK with shared guardrails, evaluations, and agent primitives. The goal is enabling product teams to build their own AI capabilities without reinventing safety and observability every time.
+Previously at A Place for Mom, I led the team behind **Grace** — a production multi-agent system powering an AI-native senior care marketplace. Key architectural decisions: hexagonal architecture for LLM provider flexibility, composable prompt packs with filesystem fallback, and a dual-layer guardrail system combining pattern matching with LLM evaluation.
 
 ## Featured Project
 
@@ -19,9 +17,11 @@ MCP server that takes a product requirements doc and decomposes it into Jira-rea
 
 ## Background
 
-**5 years of engineering leadership**, Manager → Sr Manager → Director across MarTech, Platform, and AI teams. Hired and developed 15+ engineers from IC to Principal level.
+**5+ years of engineering leadership**, Manager → Sr Manager → Director across MarTech, Platform, and AI teams. Hired and developed 15+ engineers from IC to Principal level.
 
-**A Place for Mom** — Director of Software Engineering. Present product strategy to CEO and executive leadership. Before the AI initiative, transformed a 21-person platform org: KTLO from 45% to 19%, P0 incidents from ~1/week to 1/year, delivery lead time from 20+ days to 6 days. Rebuilt the leadership team across an 18-month transformation — hired a QA Manager, Sr Manager, 2 Principals, 2 Staff Engineers, and promoted from within.
+**Arcade.dev** — First Engineering Manager. Leading Tools and Growth teams, building the platform that connects AI agents to real-world systems with proper auth, permissions, and security.
+
+**A Place for Mom** — Director of Software Engineering. Led 12 engineers across AI Product and B2B Platform. Presented product strategy to CEO and executive leadership. Transformed a 21-person platform org: KTLO from 45% to 19%, P0 incidents from ~1/week to 1/year, delivery lead time from 20+ days to 6 days. Rebuilt the leadership team across an 18-month transformation — hired a QA Manager, Sr Manager, 2 Principals, 2 Staff Engineers, and promoted from within.
 
 **Realtor.com** — Manager → Sr Manager across three teams that grew to 18 engineers (Auth, Identity, Notifications, MarTech). Founded the MarTech org from zero. Scaled Notifications from a single-use system to a company-wide platform doing 4B+ quarterly. Led Auth0 migration of 170M user records with zero downtime. Partnered with Data Science to productionalize ML-powered recommendation models.
 
@@ -35,4 +35,4 @@ MCP server that takes a product requirements doc and decomposes it into Jira-rea
 
 ## What I'm Thinking About Lately
 
-How to make agent evaluation rigorous when outputs are non-deterministic. The organizational design problem of platformizing AI capabilities (who owns what, where are the boundaries). The bottleneck shift nobody's talking about: AI tooling made our engineers 3-5x faster, but the product/design process couldn't feed them fast enough — so we had to rethink the entire development workflow, not just the engineering part. Whether the current multi-agent pattern is actually the right long-term abstraction or just the best one we have right now.
+How to make AI agents actually useful beyond chat — the auth, permissions, and security problems nobody wants to solve. How to make agent evaluation rigorous when outputs are non-deterministic. The bottleneck shift nobody's talking about: AI tooling made our engineers 3-5x faster, but the product/design process couldn't feed them fast enough — so we had to rethink the entire development workflow, not just the engineering part. Whether the current multi-agent pattern is actually the right long-term abstraction or just the best one we have right now.
