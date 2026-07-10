@@ -2,7 +2,7 @@
 
 Engineering leader focused on AI tooling, platform infrastructure, and scaling teams that ship.
 
-Engineering Manager at [Arcade.dev](https://arcade.dev), leading the Tools and Growth teams. Arcade is building the platform that lets AI agents actually do things — tackling auth, permissions, security, and connecting to the systems we've spent decades building. I lead the teams responsible for what those tools are, and how developers discover and use them.
+Member of Technical Staff at [Arcade.dev](https://arcade.dev), leading the Tools and Growth teams. Arcade is building the platform that lets AI agents actually do things — tackling auth, permissions, security, and connecting to the systems we've spent decades building. I lead the teams responsible for what those tools are, and how developers discover and use them.
 
 ## What I'm Building
 
