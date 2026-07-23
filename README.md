@@ -36,4 +36,3 @@ MCP server that takes a product requirements doc and decomposes it into Jira-rea
 ## What I'm Thinking About Lately
 
 How to make AI agents actually useful beyond chat — the auth, permissions, and security problems nobody wants to solve. How to make agent evaluation rigorous when outputs are non-deterministic. The bottleneck shift nobody's talking about: AI tooling made our engineers 3-5x faster, but the product/design process couldn't feed them fast enough — so we had to rethink the entire development workflow, not just the engineering part. Whether the current multi-agent pattern is actually the right long-term abstraction or just the best one we have right now.
-](https://github.com/samkujovich/samkujovich)
